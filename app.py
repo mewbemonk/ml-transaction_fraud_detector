@@ -3,9 +3,9 @@ import joblib as jb
 import pandas as pd
 
 
-model = jb.load(r"pickle-files\fraud_model.pkl")
-scaler = jb.load(r"pickle-files\scaler.pkl")
-features = jb.load(r"pickle-files\features.pkl")
+model = jb.load("pickle-files/fraud_model.pkl")
+scaler = jb.load("pickle-files/scaler.pkl")
+features = jb.load("pickle-files/features.pkl")
 
 
 st.title("Transaction Fraud Detector")
